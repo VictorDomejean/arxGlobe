@@ -5,6 +5,10 @@
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     <style>
+
+      #title-container{
+        display:flex
+      }
         #title{
     position: absolute;
     z-index: 1000;
@@ -45,7 +49,7 @@ overflow: hidden;
     </style>
 </head>
 <body>
-  <div>
+  <div id="title-container">
     <div id="title">ArxGlobe 2023</div>
     <div id="under-title">Où sont nos clients ?</div>
   </div>  
