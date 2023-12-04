@@ -4,56 +4,14 @@
   <meta charset="utf-8"> 
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
-    <style>
-
-      #title-container{
-        display:flex
-      }
-        #title{
-    position: absolute;
-    z-index: 1000;
-    font-family: sans-serif;
-    font-size: 60px;
-    color: #8ac640;
-    font-weight: 600;
-    text-align: center;
-}
-              #under-title{
-    position: absolute;
-    z-index: 1000;
-    font-family: sans-serif;
-    font-size: 30px;
-    color: #8ac640;
-    font-weight: 200;
-    text-align: center;
-}
-
-#legende{
-    position: absolute;
-    background-image: url(legende.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 200px;
-    height: 500px;
-    z-index: 1000;
-    left: 50px;
-}
-      html{
-overflow: hidden;
-}
-
-#cesiumContainer {
-    height: 100vh;
-}
-    </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="title-container">
     <div id="title">ArxGlobe 2023</div>
-    <div id="under-title">Où sont nos clients ?</div>
-  </div>  
-  <div id="legende"></div>
+    <div id="u-title"> Où sont nos client ?</div>
+  </div>
+    <div id="legende"></div>
   <div id="cesiumContainer"></div>
  </div>
 </body>
